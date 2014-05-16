@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-import static org.junit.Assert.*;
-
-import org.junit.Before;
-import org.junit.Test;
-
-public class TestDollar {
-
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @Test
-    public void testMultiplication() {
-        Dollar five = new Dollar(5);
-        five.times(2);
-        assertEquals(10, five.amount);
-        // fail("Not yet implemented");
-    }
-
-}
-=======
 import static org.junit.Assert.*;
 
 import org.junit.Before;
@@ -55,4 +33,3 @@ public class TestDollar {
     }
 
 }
->>>>>>> ec7466880218603d78c9cc2e81b63039d13bdc39

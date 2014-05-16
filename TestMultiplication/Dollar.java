@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-public class Dollar {
-    public Dollar(int amount) {
-        this.amount= amount;
-    }
 
-    public void times(int multiplier) {
-        amount= amount * multiplier;
-    }
-
-    public int amount;
-}
-=======
 public class Dollar extends Money {
     public Dollar(int amount) {
         this.amount = amount;
@@ -47,4 +35,4 @@ class France extends Money {
     }
     private int amount;
 }
->>>>>>> ec7466880218603d78c9cc2e81b63039d13bdc39
+
